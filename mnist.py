@@ -164,7 +164,8 @@ def index():
             file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
             fileurl = url_for('uploaded_file',filename=filename)
             image()
-    else return """Please use ' curl 0.0.0.0:4000 -F "file=@file_url" ' """
+    else:
+        return """Please use ' curl 0.0.0.0:4000 -F "file=@file_url" ' """
 
 @app.route('/html', methods=['GET','POST'])
 def index_html():
