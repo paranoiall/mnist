@@ -1,0 +1,2 @@
+model_checkpoint_path: "/Users/YTY/Desktop/mnist/model/model.ckpt"
+all_model_checkpoint_paths: "/Users/YTY/Desktop/mnist/model/model.ckpt"
