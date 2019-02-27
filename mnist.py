@@ -154,7 +154,7 @@ def insertdata(result):
         log.error(e)
 
 
-app.route('/', methods=['GET','POST'])
+@app.route('/', methods=['GET','POST'])
 def index():
     global fileurl
     if request.method == 'POST':
@@ -164,7 +164,7 @@ def index():
             file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
             fileurl = url_for('uploaded_file',filename=filename)
             return redirect('/action')
-    log.error("""Please use ' curl 0.0.0.0:4000 -F "file=@[file_url]" ' """)
+    return """Please use ' curl 0.0.0.0:4000 -F "file=@[file_url]" ' """
 
 @app.route('/html', methods=['GET','POST'])
 def index_html():
