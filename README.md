@@ -10,6 +10,6 @@
 >use mykeyspace;<br>
 >select * from ytytable;<br>
 
-![](mnist.gif)
+![](https://github.com/paranoiall/mnist/blob/master/demo.gif)
 demo
 >https://github.com/paranoiall/mnist/blob/master/mnist.mp4
