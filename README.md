@@ -10,4 +10,4 @@
 >use mykeyspace;<br>
 >select * from ytytable;<br>
 
-<img src="https://github.com/paranoiall/mnist/mnist.mp4" alt="show" />
+<img src="https://github.com/paranoiall/mnist/blob/master/mnist.mp4" alt="show" />
