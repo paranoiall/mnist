@@ -163,7 +163,8 @@ def index():
             filename = secure_filename(file.filename)
             file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
             fileurl = url_for('uploaded_file',filename=filename)
-            image()
+            result = image()
+        return result
     else:
         return """Please use ' curl 0.0.0.0:4000 -F "file=@file_url" ' """
 
