@@ -9,3 +9,5 @@
 >describe keyspaces;<br>
 >use mykeyspace;<br>
 >select * from ytytable;<br>
+
+<img src="https://github.com/paranoiall/mnist/mnist.mp4" alt="show" />
