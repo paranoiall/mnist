@@ -16,6 +16,6 @@ Can run cqlsh to view data<br>
 >>select * from ytytable;<br>
 
 Here's a demo.<br>
-<img width="150" height="150" src="https://github.com/paranoiall/mnist/blob/master/demo.gif"/><br>
+<img width="320" height="180" src="https://github.com/paranoiall/mnist/blob/master/demo.gif"/><br>
 Demo's url:<br>
 https://github.com/paranoiall/mnist/blob/master/mnist.mp4<br>
